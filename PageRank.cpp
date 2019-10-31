@@ -1,16 +1,10 @@
-// Program Name: Lab 5
+// Page Rank Algorithm
 //
 // Description:  
 //  This lab uses an adjacency matrix or a list from the data in the 
 //  PageRank.html file.
 //  It uses data from the file to implement an algorithm to calculate Page Ranks
 //  of the respective webpages contained in the file.
-//
-// What's on your mind about this lab?
-//  This lab wasn't too difficult since it was an accumlation of lessons learned
-//  throughout the quarter.
-//  But it was still challenging to figure out the implementation of the file outputs
-//  and the algorithm.
 //
 // Author: Jason Yoon
 //
@@ -19,8 +13,6 @@
 // IDE Used: Visual Microsoft
 //
 
-
-// THANK YOU FOR A GREAT QUARTER!!
 
 #include <iostream>
 #include <fstream>
@@ -57,7 +49,6 @@ public:
 
 void PageRank_Algorithm(list<shared_ptr<Node<string>>> file_outputs);
 
-/*------------------------------------------ HERE IS MY MAIN ------------------------------------------*/
 
 int main() {
 
